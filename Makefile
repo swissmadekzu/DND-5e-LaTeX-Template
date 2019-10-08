@@ -1,8 +1,8 @@
 .PHONY: all clean lint
 
-LATEX ?= pdflatex
+LATEX ?= xelatex
 
-all: example.pdf
+all: IntroKit.pdf
 
 clean:
 	latexmk -C
